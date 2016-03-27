@@ -1,0 +1,12 @@
+default:  
+  - 'concat'
+  - 'sass'
+  - 'jshint'
+
+dist:  
+  - 'newer:concat'
+  - 'newer:uglify'
+  - 'newer:sass'
+  - 'newer:cssmin'
+  - 'newer:imagemin'
+  - 'processhtml'
