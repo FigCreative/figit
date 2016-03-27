@@ -14,11 +14,11 @@
   "author": "David Maran - Fig Digital",
   "license": "ISC",
   "dependencies": {
-    "browserify": "^13.0.0",
     "browserify-shim": "^3.8.12",
     "fastclick": "^1.0.6",
     "foundation": "^4.2.1",
     "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-imagemin": "^1.0.0",
