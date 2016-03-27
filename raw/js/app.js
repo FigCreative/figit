@@ -1,3 +1,3 @@
-require('foundation');
+require('foundation-sites');
 
-console.log('hi');
+console.log('Working!');
