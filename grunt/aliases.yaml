@@ -1,6 +1,6 @@
 default:  
-  - 'browserify'
   - 'sass'
+  - 'browserify'
   - 'jshint'
 
 dist:  
