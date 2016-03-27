@@ -1,6 +1,6 @@
 module.exports = {
   grunt: { 
-                files: ['gruntfile.js'],
+                files: ['gruntfile.js', 'dev/*.html'],
                 tasks: ['default'], 
             },
             sass: {
@@ -9,11 +9,7 @@ module.exports = {
             },
             js: {
                 files: ['raw/js/*.js'],
-                tasks: ['concat', 'jshint']
-            },
-             js: {
-                files: ['dev/*.html'],
-                tasks: ['sass']
+                tasks: ['browserify', 'jshint']
             },
             options: {
       livereload: {

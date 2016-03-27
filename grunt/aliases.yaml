@@ -1,10 +1,10 @@
 default:  
-  - 'concat'
   - 'sass'
+  - 'browserify'
   - 'jshint'
 
 dist:  
-  - 'newer:concat'
+  - 'browserify'
   - 'newer:uglify'
   - 'newer:sass'
   - 'newer:cssmin'
