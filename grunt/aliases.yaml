@@ -19,6 +19,7 @@ wordpress:
   - 'newer:imagemin'
   - 'sync'
   - 'processhtml'
+  - 'ftppush'
 
 deploy:
-- ftp-deploy
+- 'ftppush'
