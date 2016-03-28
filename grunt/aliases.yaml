@@ -10,3 +10,12 @@ dist:
   - 'newer:cssmin'
   - 'newer:imagemin'
   - 'processhtml'
+
+wordpress:  
+  - 'browserify'
+  - 'newer:uglify'
+  - 'newer:sass'
+  - 'newer:cssmin'
+  - 'newer:imagemin'
+  - 'sync'
+  - 'processhtml'
