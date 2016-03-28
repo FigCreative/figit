@@ -1,5 +1,5 @@
 module.exports = {
-  grunt: { 
+            grunt: { 
                 files: ['gruntfile.js', 'dev/*.html'],
                 tasks: ['default'], 
             },
@@ -11,6 +11,11 @@ module.exports = {
                 files: ['raw/js/*.js'],
                 tasks: ['browserify', 'jshint']
             },
+/*            wordpress: { 
+                files: ['*.html', '*.php', '*.scss', '*.css', '*.js'],
+                tasks: ['wordpress'], 
+            },
+*/
             options: {
       livereload: {
         host: 'localhost',
